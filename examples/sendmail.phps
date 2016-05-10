@@ -10,11 +10,12 @@ $mail = new PHPMailer;
 // Set PHPMailer to use the sendmail transport
 $mail->isSendmail();
 //Set who the message is to be sent from
-$mail->setFrom('from@example.com', 'First Last');
+$mail->setFrom('abs@lcs.io', 'First Last');
 //Set an alternative reply-to address
-$mail->addReplyTo('replyto@example.com', 'First Last');
+$mail->addReplyTo('replyto@lcs.io', 'First Last');
 //Set who the message is to be sent to
-$mail->addAddress('whoto@example.com', 'John Doe');
+$mail->addAddress('598420668@163.com', 'John Doe');
+$mail->addAddress('598420668@qq.com', 'John Doe');
 //Set the subject line
 $mail->Subject = 'PHPMailer sendmail test';
 //Read an HTML message body from an external file, convert referenced images to embedded,
